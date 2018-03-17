@@ -1,38 +1,6 @@
-# This is a heading yo
-## Welcome to GitHub Pages
+# Epsilon posts
 
-You can use the [editor on GitHub](https://github.com/akhilsathuluri/basics/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Tech
+###Android Go in India? How would it go?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akhilsathuluri/basics/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Google has announced its all new Andriod Go recently. Should we really be excited about it? Well, definitely. Google has finally realised that the experience of Android its building is not the same on all the phones. Especially for the low-end phones filled up with tonnes of manufacturers bloatware, a reduced burden from the OS is a huge relief. The most interesting part is to see how the market responds to these phones. Though the OS is tweaked for performance on a low end hardware, Google still leaves the option of installing the Go apps vs conventional Google apps like YouTube, Gmail etc which is really a great thing.  I think in a market like India its very difficult to convince the mass consumer segment to opt for something different than usual. Especially something branded as “for cheap and low end phones”. One reason might probably be due to the typical FOMO (Fear Of Missing Out), that someone would miss out on something that would usually come with any other “normal” Android even though one might really not know what that is. This market has already seen the rise and fall of the Tata Nano. The low sales of the car can be arguably be attributed to the bad marketing strategy of naming it the “poor man’s car”. In the same perspective, having Android Go might indirectly qualify the phone to be low ended among another phones of the same price range and might put it in a disadvantageous situation. But nevertheless I really like the fact that Google is trying to fix the low end phone experience and hope it keeps its promise.
