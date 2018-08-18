@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<script type="text/x-mathjax-config">
+				MathJax.Hub.Config({
+					tex2jax: {
+						inlineMath: [['$','$'], ['\\(','\\)']],
+						processEscapes: true
+					}
+				});
+			</script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -9,15 +18,13 @@
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
 			<div class="container">
-			
+
 			{{ content }}
-			
+
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
@@ -26,4 +33,4 @@
 				</ul>
 			</footer>
 		</body>
-	</html>
+</html>
