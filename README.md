@@ -1,1 +1,0 @@
-akhilsathuluri.github.io
