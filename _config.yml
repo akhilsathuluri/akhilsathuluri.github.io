@@ -20,7 +20,7 @@ footer-links:
 
 #Build settings
 markdown: kramdown
-theme: jekyll-theme-midnight
+theme: Minimal
 plugins:
 - jekyll-feed
 
