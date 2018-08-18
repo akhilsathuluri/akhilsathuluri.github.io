@@ -1,0 +1,4 @@
+1. Create a custom domain
+2. Link disqus with the blogs made
+3. Integrate Google Analytics
+

@@ -23,4 +23,5 @@ markdown: kramdown
 theme: jekyll-theme-midnight
 plugins:
 - jekyll-feed
+- jekyll-sitemap
 permalink: /blog/:year/:month/:day/:title
