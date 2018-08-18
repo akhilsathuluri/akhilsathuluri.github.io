@@ -11,11 +11,12 @@ nav ul, footer ul {
     font-family:ubuntu, sans-serif;
     padding: 0px;
     list-style: none;
+    list-style-type: none;
     font-weight: bold;
 }
 
 //Saying all the links should be inline
-nav ul li, footer ul li {
+nav li, footer li {
     display: inline;
     margin-right: 20px;
 }
