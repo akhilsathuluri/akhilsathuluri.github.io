@@ -6,7 +6,6 @@ body {
     width: 70%;
 }
 
-//Styling for the navigation links
 nav ul, footer ul {
     font-family:ubuntu, sans-serif;
     padding: 0px;
@@ -15,16 +14,14 @@ nav ul, footer ul {
     font-weight: bold;
 }
 
-//Saying all the links should be inline
-nav li, footer li {
+nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
 
-//a is used for links and hence the below is for styling the links
 a {
     text-decoration: none;
-color: #999;
+    color: #999;
 }
 a:hover {
     text-decoration: underline;
