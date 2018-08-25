@@ -3,11 +3,12 @@ layout: post
 title: "What's so interesting in a camel standing up?"
 date: 2014-04-30
 ---
-This project tries to solve a variant of what is called as the rising camel problem mentioned in [1]. This consists of two parts:
+*This project tries to solve a variant of what is called as the rising camel problem mentioned in [1]. This consists of two parts:
 
     1. Modeling and performing trajectory tracking (kinematic) by determining pose of the robot by performing the inverse kinematic analysis of the quadruped body.
-    2. To solve the energy optimal control problem of such a quadruped
+    2. To solve the energy optimal control problem of such a quadruped*
 
+***
 
 To solve the first problem it is assumed that the robot is in its quadruple stance phase. This means that all the four legs of the quadruped are all touching the fIoor and the robot is stationary. In such a condition the robot can be modeled as a parallel manipulator for analysis.
 The model of the robot being considered is as in [2] and is reproduced below.
@@ -56,6 +57,8 @@ Initially instead of lifting the link to the final state it lets gravity do the 
 The manipulator was enforced to reach a ﬁnal end state, so the ﬁnal total energy is the potential energy of all the links only. Since the net energy is the only energy being pumped by the motors, the interest of the motors is to take the body link to the top and hence the energy pumped into the system shouldnt be wasted as potential energy of the system. So the manipulator tries to maintain the body in the horizontal position i.e. no energy is used as potential energy and all the energy pumped in is the kinetic energy of the high massed link. Thus once the transmission angle is optimal the other actuator simply goes to full actuation pushing the link to the ﬁnal state. This explains that horizontal path.
 
 ## VIDEO
+
+<br>
 
 ## **References**:
 1. J. E. Bobrow et. al., "Optimal Robot Motions for Physical Criteria", Journ. of Robotic Systems, 2001
