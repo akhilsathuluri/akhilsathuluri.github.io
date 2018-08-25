@@ -6,12 +6,13 @@ date: 2014-04-30
 *This project tries to solve a variant of what is called as the rising camel problem mentioned in [1]. This consists of two parts:
 
     1. Modeling and performing trajectory tracking (kinematic) by determining pose of the robot by performing the inverse kinematic analysis of the quadruped body.
-    2. To solve the energy optimal control problem of such a quadruped*
+    2. To solve the energy optimal control problem of such a quadruped
+
+To solve the first problem it is assumed that the robot is in its quadruple stance phase. This means that all the four legs of the quadruped are all touching the fIoor and the robot is stationary. In such a condition the robot can be modeled as a parallel manipulator for analysis.
+The model of the robot being considered is as in [2] and is reproduced below.*
 
 ***
 
-To solve the first problem it is assumed that the robot is in its quadruple stance phase. This means that all the four legs of the quadruped are all touching the fIoor and the robot is stationary. In such a condition the robot can be modeled as a parallel manipulator for analysis.
-The model of the robot being considered is as in [2] and is reproduced below.
 
 ## INSERT IMAGE
 
