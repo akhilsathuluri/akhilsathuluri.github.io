@@ -23,8 +23,8 @@ The second problem was solved considering only one half of the symmetric body of
 
 Assumptions involved in solving this problem are that:
 
-   1.  The solutions of the joint angle trajectories were approximated using fourth order polynomials
-   2.  The integration over the entire interval was approximated using Gausssian Quadratures instead of performing the actual integration over the whole time period of motion
+   1. The solutions of the joint angle trajectories were approximated using fourth order polynomials
+   2. The integration over the entire interval was approximated using Gausssian Quadratures instead of performing the actual integration over the whole time period of motion
 
 These helped in solving the problem in a practical time spans on a typical laptop and allowed us to iterate quickly. The problem was solved under various parametric conditions to see the response of the manipulator. The following section contains a discussion on all the cases and the corresponding results.
 
