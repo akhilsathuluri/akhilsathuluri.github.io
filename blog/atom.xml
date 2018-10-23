@@ -15,7 +15,7 @@ layout: feed
 		<email>akhilsathuluri@gmail.com</email>
 	</author>
 
-	{% for post in site.posts %}
+	{% for post in site.blogs %}
 		<entry>
 			<title>{{ post.title }}</title>
 			<link href="http://akhilsathuluri.github.io{{ post.url }}"/>
