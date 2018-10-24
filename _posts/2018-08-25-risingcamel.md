@@ -60,7 +60,7 @@ The key difference between the rising camel problem talked about in [1] vs here 
 
 For further information please find the complete project report here. 
 
-![Rising Camel Project Report](/pdfs/rising_camel.pdf)
+[Rising Camel Project Report]({{ site.url }}/pdfs/rising_camel.pdf)
 
 ## VIDEO
 
