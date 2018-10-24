@@ -13,7 +13,7 @@ date: 2014-04-30
 To solve the first problem it is assumed that the robot is in its quadruple stance phase i.e. all the four legs of the quadruped are touching the fIoor and the point of contacts of the legs with the ground do not change with time. Also assuming that there is sufficient friction to prevent the legs from slipping during motion. In such a condition the robot can be modeled as a parallel manipulator for analysis.
 The model of the robot being considered is as in [2] and is reproduced below.
 
-![Kinematic Diagram](/images/post1/Kine_diag.jpg?style=center)
+![Kinematic Diagram](/images/post1/Kine_diag.jpg)
 
 The inverse kinematic analysis was performed and was used to determine the pose of the robot as its eyes (Imaginary. Assumed to be on the mid point of the front side of the body) track a circle. The result is as shown below.
 
@@ -57,6 +57,10 @@ Initially instead of lifting the link to the final state it lets gravity do the 
 The manipulator was enforced to reach a ﬁnal end state, so the ﬁnal total energy is the potential energy of all the links only. Since the net energy is the only energy being pumped by the motors, the interest of the motors is to take the body link to the top and hence the energy pumped into the system shouldnt be wasted as potential energy of the system. So the manipulator tries to maintain the body in the horizontal position i.e. no energy is used in changing the  potential energy of the links, but all the energy pumped in is the kinetic energy of the high massed link. Thus once the transmission angle is optimal the other actuator simply goes to full actuation pushing the link to the ﬁnal state. This explains that horizontal path.
 
 The key difference between the rising camel problem talked about in [1] vs here is that the contact force between the serial manipulator and the workpiece might be limited, but these ideal passive joints allow theoretically infinite forces. Also it is clearly observed that through a large part of the trajectory the manipulator prefers a singular pose, at which some of the load of the link is taken by the structure itself rather than the actuators working against them and spending energy.
+
+For further information please find the complete project report here. 
+
+![Rising Camel Project Report](/pdfs/rising_camel.pdf)
 
 ## VIDEO
 
