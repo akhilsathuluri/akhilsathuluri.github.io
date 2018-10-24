@@ -14,7 +14,7 @@ date: 2014-04-30
 To solve the first problem it is assumed that the robot is in its quadruple stance phase. This means that all the four legs of the quadruped are all touching the fIoor and the robot is stationary. In such a condition the robot can be modeled as a parallel manipulator for analysis.
 The model of the robot being considered is as in [2] and is reproduced below.
 
-![Kinematic Diagram](/images/post1/kine_diag.jpg)
+![Kinematic Diagram](/images/post1/Kine_diag.jpg)
 
 The inverse kinematic analysis was performed and was used to determine the pose of the robot as its eyes (Imaginary. Assumed to be on the mid point of the front side of the body) track a circle. The result is as shown below.
 
