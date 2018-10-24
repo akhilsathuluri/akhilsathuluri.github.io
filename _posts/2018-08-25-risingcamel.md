@@ -8,7 +8,7 @@ date: 2014-04-30
 <ol>
 <li>Modeling and trajectory tracking (kinematic) by determining pose of the robot by performing the inverse kinematic analysis of the quadruped robot.</li>
 <li>To solve the energy optimal control problem of such a quadruped, and to hope that it resembles an animals motion!</li>
-<ol>
+</ol>
 
 To solve the first problem it is assumed that the robot is in its quadruple stance phase i.e. all the four legs of the quadruped are touching the fIoor and the point of contacts of the legs with the ground do not change with time. Also assuming that there is sufficient friction to prevent the legs from slipping during motion. In such a condition the robot can be modeled as a parallel manipulator for analysis.
 The model of the robot being considered is as in [2] and is reproduced below.
