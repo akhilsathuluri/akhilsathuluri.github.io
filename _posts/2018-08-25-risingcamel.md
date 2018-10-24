@@ -58,7 +58,7 @@ The manipulator was enforced to reach a ﬁnal end state, so the ﬁnal total en
 
 The key difference between the rising camel problem talked about in [1] vs here is that the contact force between the serial manipulator and the workpiece might be limited, but these ideal passive joints allow theoretically infinite forces. Also it is clearly observed that through a large part of the trajectory the manipulator prefers a singular pose, at which some of the load of the link is taken by the structure itself rather than the actuators working against them and spending energy.
 
-The project was done along with my colleague Gautham R. For further information please find the complete project report here. 
+The project was done along with my colleague Gautham R for the course "Design, Analysis and Control of Parallel Manipulators". For further information please find the complete project report here. 
 
 [Rising Camel Project Report]({{ site.url }}/pdfs/rising_camel.pdf)
 
