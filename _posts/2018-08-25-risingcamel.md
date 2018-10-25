@@ -17,7 +17,7 @@ The model of the robot being considered is as in [2] and is reproduced below.
 
 The inverse kinematic analysis was performed and was used to determine the pose of the robot as its eyes (Imaginary. Assumed to be on the mid point of the front side of the body) track a circle. The result is as shown below.
 
-## INSERT VIDEO
+[![Quadruped\_IK](http://img.youtube.com/vi/FnNcy5_oiPs/0.jpg)](http://www.youtube.com/watch?v=FnNcy5\_oiPs "Inverse Kinematics of a Quadruped Robot")
 
 The second problem was solved considering only one half of the symmetric body of the quadruped and the case for optimization was to rise from its sitting pose to a standing pose assuming a planar motion under the effects of gravity.
 
