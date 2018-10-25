@@ -13,11 +13,15 @@ date: 2014-04-30
 To solve the first problem it is assumed that the robot is in its quadruple stance phase i.e. all the four legs of the quadruped are touching the fIoor and the point of contacts of the legs with the ground do not change with time. Also assuming that there is sufficient friction to prevent the legs from slipping during motion. In such a condition the robot can be modeled as a parallel manipulator for analysis.
 The model of the robot being considered is as in [2] and is reproduced below.
 
+<p align="center">
 ![Kinematic Diagram](/images/post1/Kine_diag.jpg)
+</p>
 
 The inverse kinematic analysis was performed and was used to determine the pose of the robot as its eyes (Imaginary. Assumed to be on the mid point of the front side of the body) track a circle. The result is as shown below.
 
+<p align="center">
 [![Quadruped\_IK](http://img.youtube.com/vi/FnNcy5_oiPs/0.jpg)](http://www.youtube.com/watch?v=FnNcy5_oiPs "Inverse Kinematics of a Quadruped Robot")
+</p>
 
 The second problem was solved considering only one half of the symmetric body of the quadruped and the case for optimization was to rise from its sitting pose to a standing pose assuming a planar motion under the effects of gravity.
 
@@ -31,7 +35,9 @@ These helped in solving the problem in a practical time spans on a typical lapto
 ### Simple shooting:
 As the first step we tried solving the complete control problem. The dynamics turned out to be too complex to integrate for the whole time period. So to start with a simpler problem, ignoring the effects of gravity. And also a feedback linearized model was considered to solve the energy optimal problem. The solution to this problem is a shown in the video below. It can be seen that the presense of the third actuator in an asymmetric position did not effect the solution at all. The complete motion was symmetric throughout the motion. This means that such a model is decoupled, as the complex coupling terms are missing. Hence this gives us some interesting yet incomplete results.
 
-## VIDEO
+<p align="center">
+[![Simple\_Shooting](http://img.youtube.com/vi/FnNcy5_oiPs/0.jpg)](http://www.youtube.com/watch?v=FnNcy5_oiPs "Simple Shooting")
+</p>
 
 ### Without Gravity:
 To solve the full problem instead of searching the full space we'll instead start approximating the trajectory with atleast a polynomial of fourth order(as we know the end configurations of each state to be controlled) and use a Gaussian integration to integrate within the given time interval. This allowed us to practically solve the problem. 
@@ -39,7 +45,9 @@ To solve the full problem instead of searching the full space we'll instead star
 #### Experiment: 
 The same construction of the manipulator as shown above was considered and the problem of raising to a final state was done without considering the effects of the gravity first. The tests were performed parametrically by changing the number of Gauss Quadrature sampling points. The following are the results obtained. The results obtained were different from the one obtained from decoupleing the problem. This confirms the fact that the problem cannot be solved by using simple feedback linearization technique. This decouples the problem loosing valuable trajectories which might exploit the coupled effects in the dynamics.
 
-## VIDEO
+<p align="center">
+[![Without Gravity](http://img.youtube.com/vi/ZnqzUKwgiDI/0.jpg)](http://www.youtube.com/watch?v=ZnqzUKwgiDI "Without Gravity Simulation")
+</p>
 
 ### With Gravity:
 This deals with the raising camel problem in its full glory. This problem is same as the above but considering the effects of gravity in this case. The test was performed with changing Gauss Quadrature sampling number. The result is as shown. One can see a striking similarity between the optimal solution between this and the camel rising. Though both of these models differ in terms of construction, i.e. the number of degrees of freedom and the number of links (bones involved) and the type of actuation itself, the solution can be seen very relevant and a similar motion can be observed in the simulated scenario and the real camel motion.
@@ -51,6 +59,10 @@ This deals with the raising camel problem in its full glory. This problem is sam
 
 The inspiration for this experiment is [1], speaking about power lifiting of a load more than the prescribed value by a PUMA robot. We wanted to see if we can observe such joint trajectories to lift a very high body mass.
 
+<p align="center">
+[![High Mass Simulation](http://img.youtube.com/vi/1yM5EPx0N3g/0.jpg)](http://www.youtube.com/watch?v=1yM5EPx0N3g "High Mass Simulation")
+</p>
+
 Interpretation:
 Initially instead of lifting the link to the final state it lets gravity do the job for it. While transitioning from moving downward to upward it makes sure that the left part of the linkages are aligned such that the load is completely taken by the ground joint so that there is no additional effort by the motors in lifting it up. Before raising itself up, it moves almost in a straight line path, which implies that there is no change in its potential energy throughout that motion.
 
@@ -61,8 +73,6 @@ The key difference between the rising camel problem talked about in [1] vs here 
 The project was done along with my colleague R. Gautham for the course "Design, Analysis and Control of Parallel Manipulators", instructor, Prof. Sandipan Bandyopadhyay. For further information please find the complete project report here. 
 
 [Rising Camel Project Report]({{ site.url }}/pdfs/rising_camel.pdf)
-
-## VIDEO
 
 <br>
 
