@@ -33,7 +33,7 @@ These helped in solving the problem in a practical time spans on a typical lapto
 ### Simple shooting:
 As the first step we tried solving the complete control problem. The dynamics turned out to be too complex to integrate for the whole time period. So to start with a simpler problem, ignoring the effects of gravity. And also a feedback linearized model was considered to solve the energy optimal problem. The solution to this problem is a shown in the video below. It can be seen that the presense of the third actuator in an asymmetric position did not effect the solution at all. The complete motion was symmetric throughout the motion. This means that such a model is decoupled, as the complex coupling terms are missing. Hence this gives us some interesting yet incomplete results.
 
-[![Simple\_Shooting](http://img.youtube.com/vi/FnNcy5_oiPs/0.jpg#center)](http://www.youtube.com/watch?v=FnNcy5_oiPs "Simple Shooting")
+[![Simple Shooting](http://img.youtube.com/vi/cokGNeDEaOg/0.jpg#center)](http://www.youtube.com/watch?v=cokGNeDEaOg "Simple Shooting")
 
 
 ### Without Gravity:
@@ -63,7 +63,9 @@ The manipulator was enforced to reach a ﬁnal end state, so the ﬁnal total en
 
 The key difference between the rising camel problem talked about in [1] vs here is that the contact force between the serial manipulator and the workpiece might be limited, but these ideal passive joints allow theoretically infinite forces. Also it is clearly observed that through a large part of the trajectory the manipulator prefers a singular pose, at which some of the load of the link is taken by the structure itself rather than the actuators working against them and spending energy.
 
-The project was done along with my colleague R. Gautham for the course "Design, Analysis and Control of Parallel Manipulators", instructor, Prof. Sandipan Bandyopadhyay. For further information please find the complete project report here. 
+
+#Acknowledgment:
+The project was done in collaboration with my colleague R. Gautham for the course "Design, Analysis and Control of Parallel Manipulators", instructor, Prof. Sandipan Bandyopadhyay. For further information please find the complete project report here. 
 
 [Rising Camel Project Report]({{ site.url }}/pdfs/rising_camel.pdf#center)
 
