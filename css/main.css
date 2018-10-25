@@ -70,7 +70,7 @@ ul.posts li {
     }
 }
 
-img[src$="center"] {
-  display:block;
-  margin: 0 auto;
+img[src*="#center"] {
+  display: block;
+  margin: auto;
 }
