@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What's so interesting in a camel standing up?"
-date: 2014-04-30
+date: 2018-08-25
 ---
 
 *This project tries to solve a variant of what is called as the rising camel problem mentioned in [1]. This consists of two parts:*
