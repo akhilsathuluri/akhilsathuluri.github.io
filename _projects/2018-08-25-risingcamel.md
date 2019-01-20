@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "What's so interesting in a camel standing up?"
 date: 2018-08-25
 ---
