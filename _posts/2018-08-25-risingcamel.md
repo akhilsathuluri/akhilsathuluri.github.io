@@ -2,6 +2,7 @@
 layout: project
 title: "What's so interesting in a camel standing up?"
 date: 2018-08-25
+category: projects
 ---
 
 *This project tries to solve a variant of what is called as the rising camel problem mentioned in [1]. This consists of two parts:*
@@ -37,9 +38,9 @@ As the first step we tried solving the complete control problem. The dynamics tu
 
 
 ## Without Gravity:
-To solve the full problem instead of searching the full space we'll instead start approximating the trajectory with atleast a polynomial of fourth order(as we know the end configurations of each state to be controlled) and use a Gaussian integration to integrate within the given time interval. This allowed us to practically solve the problem. 
+To solve the full problem instead of searching the full space we'll instead start approximating the trajectory with atleast a polynomial of fourth order(as we know the end configurations of each state to be controlled) and use a Gaussian integration to integrate within the given time interval. This allowed us to practically solve the problem.
 
-### Experiment: 
+### Experiment:
 The same construction of the manipulator as shown above was considered and the problem of raising to a final state was done without considering the effects of the gravity first. The tests were performed parametrically by changing the number of Gauss Quadrature sampling points. The following are the results obtained. The results obtained were different from the one obtained from decoupleing the problem. This confirms the fact that the problem cannot be solved by using simple feedback linearization technique. This decouples the problem loosing valuable trajectories which might exploit the coupled effects in the dynamics.
 
 [![Without Gravity](http://img.youtube.com/vi/ZnqzUKwgiDI/0.jpg#center)](http://www.youtube.com/watch?v=ZnqzUKwgiDI "Without Gravity Simulation")
@@ -65,7 +66,7 @@ The key difference between the rising camel problem talked about in [1] vs here 
 
 
 ## Acknowledgment:
-The project was done in collaboration with my colleague R. Gautham for the course "Design, Analysis and Control of Parallel Manipulators", instructor, Prof. Sandipan Bandyopadhyay. For further information please find the complete project report here. 
+The project was done in collaboration with my colleague R. Gautham for the course "Design, Analysis and Control of Parallel Manipulators", instructor, Prof. Sandipan Bandyopadhyay. For further information please find the complete project report here.
 
 [Rising Camel Project Report]({{ site.url }}/pdfs/rising_camel.pdf)
 
