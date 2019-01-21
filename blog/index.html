@@ -5,7 +5,7 @@ title: Blog
 	<h1>{{ page.title }}</h1>
 	<ul class="blogs">
 
-	  {% for post in site.categories.blog %}
+	  {% for post in site.posts %}
 	    <li><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
