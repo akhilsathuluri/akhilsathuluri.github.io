@@ -6,6 +6,10 @@ title: Projects
 	<ul class="project">
 
 		{% for post in site.categories.projects%}
-	    <li><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}
+				<br>
+				{{ post.summary }}
+				<br>
+			</a></li>
 	  {% endfor %}
 	</ul>
