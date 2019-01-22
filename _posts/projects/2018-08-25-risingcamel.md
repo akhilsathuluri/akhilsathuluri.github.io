@@ -1,8 +1,9 @@
 ---
 layout: project
-title: "What's so interesting in a camel standing up?"
+title: "The Rising Camel Problem"
 date: 2018-08-25
 category: projects
+summary: This project is to illustrate the rising camel problem as energy optimal control of a six bar parallel manipulator. Also attempts to study the idea of power lifting in this parallel robot.
 ---
 
 *This project tries to solve a variant of what is called as the rising camel problem mentioned in [1]. This consists of two parts:*
