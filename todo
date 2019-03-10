@@ -3,3 +3,7 @@
 3. Cannot add summary for the blog posts
 4. Add tags in projects to seperate design projects form robotics
 5. Change the way links look. Make them blue in the main page atleast.
+
+Running a local host:
+Go to the host directory
+bundle exec jekyll serve
