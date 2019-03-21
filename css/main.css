@@ -19,12 +19,21 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-a {
+b {
     text-decoration: none;
+}
+b:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+a {
+    text-decoration: underline;
     color: #999;
 }
 a:hover {
     text-decoration: underline;
+    color: blue;
 }
 
 h1 {
