@@ -7,3 +7,5 @@
 Running a local host:
 Go to the host directory
 bundle exec jekyll serve
+
+Then access the page via: http://localhost:4000/
