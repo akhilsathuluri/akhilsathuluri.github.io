@@ -2,14 +2,37 @@
 layout: default
 title: Blog
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="blogs">
 
-	  {% for post in site.categories.blogs %}
-	    <li><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				<br>
-				{{ post.summary }}
-				<br>
-			</li>
-	  {% endfor %}
-	</ul>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+    <body>
+        <h1>Blog</h1>
+        <table style="margin-left: auto; margin-right: auto;">
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="Tutorials/index.html"><img alt="Tutorials" src="tutorials_git.png" width="400"></a>
+                    </td>
+                  <!--  <td>
+                        <a href="Graphic_Design/index.html"><img alt="Graphic Design" src="graphic_design_git.png" width="200"></a>
+                    </td>
+                  -->
+                    <td>
+                        <a href="Articles/index.html"><img alt="Articles" src="articles_git.png" width="400"></a>
+                    </td>
+                </tr>
+                <!--<tr>
+                  <td>
+                    <a href="special-broccoli/index.html"><img alt="special-broccoli" src="cartPole.svg"></a>
+                  </td>
+                  <td>
+                    <a href="Origami/index.html"><img alt="Origami" src="quadrature.svg"></a>
+                  </td>
+                  <td>
+                    <a href="Comics/index.html"><img alt="Comics" src="simulation.svg"></a>
+                  </td>
+                </tr>-->
+            </tbody>
+        </table>
+    </body>
