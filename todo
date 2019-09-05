@@ -10,3 +10,9 @@ Go to the host directory
 bundle exec jekyll serve
 
 Then access the page via: http://localhost:4000/
+
+Laptop spec:
+Processor		: 4x Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+Memory			: 3944MB (2797MB used)
+Operating System	: Ubuntu 16.04.6 LTS
+Number of cores used	: 1
