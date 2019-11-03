@@ -18,3 +18,24 @@ title: Projects
 			<br>
 		</li>
 	</ul>
+	<h1>Tutorials</h1>
+	<ul class="tutorial">
+
+    {% for post in site.categories.tutorials %}
+      <li><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <br>
+        {{ post.summary }}
+        <br>
+      </li>
+    {% endfor %}
+    <li><span><a href="pdf/index_theorems.pdf" title="{{ post.title }}" target="_blank">Index Theorems</a>
+      <br>
+      Index theorems gives us a qualitative way to understand the vector field of a dynamical system, i.e., to know if there is a possibility of a closed orbit or to know what type of fixed points are possible within a curve etc.
+      <br>
+    </li>
+    <li><span><a href="https://github.com/akhilsathuluri/flexible_link_sim" title="{{ post.title }}" target="_blank">Flexible rotating body simulation</a>
+      <br>
+      Simulation of the Lagrangian formulation of a flexible rotating beam modeled using Finite Element Method (FEM).
+      <br>
+    </li>
+  </ul>
