@@ -4,6 +4,8 @@ title: "Simulating the game of life in C++"
 date: 2019-12-27
 category: tutorials
 summary: The game of life is an example of how complex behaviour can emerge from a simple set of rules.
+notempty: "True"
+image: /images/display_images/game_of_life.gif
 ---
 
 All the codes are available in [this](https://github.com/akhilsathuluri/game_of_life) repository. 

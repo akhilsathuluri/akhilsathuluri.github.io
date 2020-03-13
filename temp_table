@@ -1,0 +1,25 @@
+<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<tr style="padding:0px">
+<td style="padding:0px">
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tr style="padding:0px">
+    <td style="padding:2.5%;width:60%;vertical-align:middle">
+      <h1>
+        Akhil Sathuluri
+      </h1>
+      <p>I currently work as an Electrical Engineer in the Robotics and Automation team of <a href="https://www.bajajauto.com/"> Bajaj Auto Ltd</a>., the worlds largest three-wheeler and the third largest two-wheeler manufacturer.</p>
+      <p>I graduated from the Department of Engineering Design,
+         Indian Institute of Technology Madras. I was a member of the<a href="https://ed.iitm.ac.in/~robotics_lab/"> Robotics Lab</a>, advised by <a href="https://ed.iitm.ac.in/~sandipan/"> Prof. Sandipan Bandyopadhyay</a>.
+         <!-- I worked on the topics of design, analysis and control of parallel robots. -->
+       </p>
+      <p style="text-align:center">
+        <a target="_blank" href="mailto:akhilsathuluri@gmail.com"> Email</a> &nbsp;/&nbsp;
+        <a href="https://github.com/akhilsathuluri">GitHub</a> &nbsp;/&nbsp;
+        <a href="https://www.linkedin.com/in/akhilsathuluri/"> LinkedIn </a>
+      </p>
+    </td>
+    <td style="padding:2.5%;width:40%;max-width:40%">
+      <img style="width:80%;max-width:100%" alt="profile photo" src="images/circle.png">
+    </td>
+  </tr>
+</table>

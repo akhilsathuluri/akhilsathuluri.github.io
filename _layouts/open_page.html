@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav
+			style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+					<ul>
+							<li><a href="/">Home</a></li>
+							<!-- <li><a href="/research">Research</a></li> -->
+							<li><a href="/projects">Projects</a></li>
+							<!-- <li><a href="/blog">Blog</a></li> -->
+					</ul>
+			</nav>
+
+			<hr>
+
+			<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+			<tr style="padding:0px">
+			<td style="padding:0px">
+			<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+			  <tr style="padding:0px">
+			    <td style="padding:0px;width:60%;vertical-align:middle;text-align:left">
+			      <h1>
+			        Akhil Sathuluri
+			      </h1>
+			      <p>I currently work as an Electrical Engineer in the Robotics and Automation team of <a href="https://www.bajajauto.com/"> Bajaj Auto Ltd</a>., the worlds largest three-wheeler and the third largest two-wheeler manufacturer.</p>
+			      <p>I graduated from the Department of Engineering Design,
+			         Indian Institute of Technology Madras. I was a member of the<a href="https://ed.iitm.ac.in/~robotics_lab/"> Robotics Lab</a>, advised by <a href="https://ed.iitm.ac.in/~sandipan/"> Prof. Sandipan Bandyopadhyay</a>.
+			         <!-- I worked on the topics of design, analysis and control of parallel robots. -->
+			       </p>
+			      <p style="text-align:center">
+			        <a target="_blank" href="mailto:akhilsathuluri@gmail.com"> Email</a> &nbsp;/&nbsp;
+			        <a href="https://github.com/akhilsathuluri">GitHub</a> &nbsp;/&nbsp;
+			        <a href="https://www.linkedin.com/in/akhilsathuluri/"> LinkedIn </a>
+			      </p>
+			    </td>
+			    <td style="padding:2.5%;width:40%;max-width:40%">
+			      <img style="width:80%;max-width:100%" alt="profile photo" src="images/circle.png">
+			    </td>
+			  </tr>
+			</table>
+
+			<br>
+			<br>
+
+			<!-- Adding research in the open page -->
+    <h2>Research</h2>
+
+			<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+							 {% for post in site.categories.research %}
+							 <tr>
+								 <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
+									 <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+								 </td>
+								 <td style="padding:2.5%;width:75%;vertical-align:middle">
+									 <h3>{{post.title}}</h3>
+									 <br>
+									 {{post.authors}}
+									 <br>
+									 {% if post.advisor %}
+									 Advisor: {{post.advisor}}
+									 <br>
+									 {% endif %}
+									 <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+									 <br>
+									 {% if post.preprint %}
+									 <a href="{{post.preprint}}" target="_blank">preprint</a> /
+									 {% endif %}
+									 {% if post.paper %}
+									 <a href="{{post.paper}}" target="_blank">paper</a> /
+									 {% endif %}
+									 {% if post.arxiv %}
+									 <a href="{{post.arxiv}}" target="_blank">arxiv</a> /
+									 {% endif %}
+									 {% if post.report %}
+									 <a href="{{post.report}}" target="_blank">report</a> /
+									 {% endif %}
+									 {% if post.video %}
+									 <a href="{{post.video}}">video</a> /
+									 {% endif %}
+									 {% if post.code %}
+									 <a href="{{post.code}}">code</a> /
+									 {% endif %}
+									 {% if post.poster %}
+									 <a href="{{post.poster}}">poster</a> /
+									 {% endif %}
+									 {% if post.slides %}
+									 <a href="{{post.slides}}">slides</a> /
+									 {% endif %}
+									 <p></p>
+									 {{ post.excerpt }}
+								 </td>
+							 </tr>
+							 {% endfor %}
+						 </table>
+		</body>
+		<p align="right">
+		<a href="https://jonbarron.info/">Template</a> and the <a href="https://leonidk.com/">modified template</a>
+	</p>
+</html>

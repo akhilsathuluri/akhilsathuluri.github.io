@@ -28,54 +28,67 @@ b:hover {
 }
 
 a {
-    text-decoration: underline;
-    color: #999;
+  color: #1772d0;
+  text-decoration: none;
 }
+
+a:focus,
 a:hover {
-    text-decoration: underline;
-    color: blue;
+  color: #f09228;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+  font-display: auto;
+  font-weight: normal;
+  padding: 0px;
+  margin: 0px;
+  display:inline;
+}
+
+h3 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-display: auto;
+  padding: 0px;
+  margin: 0px;
+  display:inline;
 }
 
 h1 {
-    font-size: 2.5em;
-    font-family: monospace, sans-serif, lucida-sans;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-display: auto;
+  text-align: center;
+  padding: 0px;
+  margin-block-start: 14px;
+  margin-block-end: 14px;
+  margin-left: 0px;
+  margin-right: 0px;
+
 }
-h2 {
-    font-size: 1.7em;
-    font-family: monospace, sans-serif, lucida-sans;
-    margin:0;
-    padding:0;
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-display: auto;
 }
-h3 {
-    font-size: 1.3em;
-    font-family: monospace, sans-serif, lucida-sans;
-    margin:0;
-    padding:0;
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-display: auto;
 }
-h4 {
-    font-size: 1.0em;
-    font-family: monospace, sans-serif, lucida-sans;
-    margin:0;
-    padding:0;
-}
-h5 {
-    font-size: 0.8em;
-    font-family: monospace, sans-serif, lucida-sans;
-    margin:0;
-    padding:0;
-}
-h6 {
-    font-size: 0.6em;
-    font-family: monospace, sans-serif, lucida-sans;
-    margin:0;
-    padding:0;
-}
-p {
-    font-family: inconsolata, sans-serif;
-    font-size: 1.3em;
-    line-height: 1.4em;
-    color: #000000, #fffdf2;
-}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;

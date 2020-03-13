@@ -3,7 +3,9 @@ layout: project
 title: "The Rising Camel Problem"
 date: 2018-08-25
 category: projects
+notempty: "True"
 summary: Considering a quadruped robot in its quadruple stance phase as a parallel manipulator, we attempt to solve the energy-optimal control from sitting to a standing posture, also known as the rising camel problem. The idea of powerlifting is also explored. 
+image: /images/display_images/rising.gif
 ---
 
 In the robots quadruple stance phase, all the four legs of the quadruped are touching the floor, and the point of contacts of the legs with the ground does not change with time. We assume that there is sufficient friction to prevent the legs from slipping during motion. In such a condition the robot can be modelled as a parallel manipulator for analysis.

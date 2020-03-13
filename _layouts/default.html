@@ -1,41 +1,23 @@
 <!DOCTYPE html>
 	<html>
-		<head>
-			<link rel="shortcut icon" href="">
-			<script type="text/x-mathjax-config">
-				MathJax.Hub.Config({
-					tex2jax: {
-						inlineMath: [['$','$'], ['\\(','\\)']],
-						processEscapes: true
-					}
-				});
-			</script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<nav>
+			<nav
+			style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
-							<li><a href="/research">Research</a></li>
+							<!-- <li><a href="/research">Research</a></li> -->
 							<li><a href="/projects">Projects</a></li>
-             	<li><a href="/blog">Blog</a></li>
+             	<!-- <li><a href="/blog">Blog</a></li> -->
 	    		</ul>
 			</nav>
+			<hr>
 			<div class="container">
 
 			{{ content }}
 
-			</div><!-- /.container -->
+			</div>
 
-			<footer>
-	    		<ul>
-	        	<!--	<li><a href="mailto:akhilsathuluri@gmail.com">email</a></li>
-	        		<li><a href="https://www.linkedin.com/in/akhilsathuluri/">linkedin.com/in/akhilsathuluri</a></li>-->
-                                <li><a href="https://github.com/akhilsathuluri">github.com/akhilsathuluri</a></li>
-				</ul>
-			</footer>
 		</body>
 </html>
