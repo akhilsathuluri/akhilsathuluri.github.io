@@ -2,6 +2,36 @@
 layout: default
 title: Projects
 ---
+
+<!-- <h2>Projects</h2> -->
+<ul class="machines">
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+					<tr>
+					 <h2>Machines</h2>
+				 </tr>
+				 <br>
+				 <br>
+				 {% for post in site.categories.machines%}
+				 <tr>
+					 <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+						 <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+					 </td>
+					 <td style="padding:2.5%;width:75%;vertical-align:middle">
+						 {% if post.notempty %}
+						 <span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+						 {% endif %}
+						 {% if post.empty %}
+						 <span><a href="{{ post.alternate }}" title="{{ post.title }}">{{ post.title }}</a>
+						 {% endif %}
+							 <br>
+							 {{ post.summary }}
+							 <br>
+					 </td>
+				 </tr>
+				 {% endfor %}
+			 </table>
+</ul>
+
 		<!-- <h2>Projects</h2> -->
 	<ul class="project">
 		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -67,7 +97,7 @@ title: Projects
 	<br>
 	<br>
 		<ul class="archive">
-			
+
 			<li><span><a href="pdf/survey_research_robots.pdf" title="{{ post.title }}" target="_blank">A report on robot research testbenches</a>
 	    </li>
 

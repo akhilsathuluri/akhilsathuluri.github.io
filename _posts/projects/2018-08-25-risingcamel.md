@@ -1,10 +1,10 @@
 ---
 layout: project
-title: "The Rising Camel Problem"
+title: "The Rising Camel Problem: Trajectory optimisation of parallel manipulators"
 date: 2018-08-25
 category: projects
 notempty: "True"
-summary: Considering a quadruped robot in its quadruple stance phase as a parallel manipulator, we attempt to solve the energy-optimal control from sitting to a standing posture, also known as the rising camel problem. The idea of powerlifting is also explored. 
+summary: Considering a quadruped robot in its quadruple stance phase as a parallel manipulator, we attempt to solve the energy-optimal control from sitting to a standing posture, also known as the rising camel problem. The idea of powerlifting is also explored.
 image: /images/display_images/rising.gif
 ---
 
@@ -40,7 +40,7 @@ As a first step, we tried solving the full control problem. The dynamics turned 
 </div>
 <br>
 ## Without Gravity:
-To solve the full problem instead of searching the full space we'll instead start approximating the trajectory with at least a polynomial of fourth order(as we know the end configurations of each state to be controlled) and use a Gaussian integration to integrate within the given time interval. 
+To solve the full problem instead of searching the full space we'll instead start approximating the trajectory with at least a polynomial of fourth order(as we know the end configurations of each state to be controlled) and use a Gaussian integration to integrate within the given time interval.
 
 ### Experiment:
 The same construction of the manipulator, as shown above, was considered and the problem of rising to a final state is performed without considering the effects of the gravity first. The tests were performed parametrically by changing the number of Gauss Quadrature sampling points. The following are the results obtained. The results obtained were different from the one obtained from decoupling the problem. This confirms the solution obtained by using a simple feedback linearised model is incomplete. This decouples the problem loosing valuable trajectories which might exploit the coupled effects in the dynamics.
