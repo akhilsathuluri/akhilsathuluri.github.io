@@ -4,14 +4,40 @@ title: Articles
 ---
 	<h1>{{ page.title }}</h1>
 	<ul class="blogs">
-
+	<h2>Recent</h2>
 	  <!-- {% for post in site.categories.blogs %}
 	    <li><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 				<br>
 				{{ post.summary }}
 				<br>
 			</li>
-	  {% endfor %} -->
+	  {% endfor %}-->
+	  <br>
+	  <br> 
+
+	  {% for post in site.categories.blogs%}
+	  <tr>
+		  <!-- <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+			  <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+		  </td> -->
+		  <td style="padding:2.5%;width:75%;vertical-align:middle">
+			  {% if post.notempty %}
+			  <span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+			  {% endif %}
+			  {% if post.empty %}
+			  <span><a href="{{ post.alternate }}" title="{{ post.title }}">{{ post.title }}</a>
+			  {% endif %}
+				  <br>
+				  {{ post.summary }}
+				  <br>
+		  </td>
+	  </tr>
+	  {% endfor %}
+	  <br>
+	  <br>
+
+
+	<h2>Archive</h2>
 
 		<li><span><a href="https://medium.com/@akhilsathuluri/we-dont-eat-plastic-neither-do-the-oceans-1c08e2b708b9" title="{{ post.title }}" target="_blank">We dont eat plastic, neither do the oceans</a>
 		</li>
@@ -30,5 +56,8 @@ title: Articles
 		<br>
 		<li><span><a href="https://medium.com/@akhilsathuluri/android-go-in-india-how-will-the-market-react-8e6cb90bd870" title="{{ post.title }}" target="_blank">Android go in India</a>
 		</li>
+		A brief discussion on the release of Android Go in India
+		<br>
+		<br>
 
 	</ul>
