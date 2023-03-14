@@ -4,11 +4,15 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<nav
-			style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+			<hr>
+			<h1>
+				Akhil Sathuluri
+			  </h1>
+			<!-- <nav
+			style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"> -->
+			<nav style="margin: 5pt 5pt -5pt 5pt;line-height: 1em;font-size: 8pt;color:  gray;">
 					<ul>
 							<li><a href="/">Home</a></li>
-							<!-- <li><a href="/research">Research</a></li> -->
 							<li><a href="/projects">Projects</a></li>
 							<li><a href="/blog">Blog</a></li>
 					</ul>
@@ -22,13 +26,13 @@
 			<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 			  <tr style="padding:0px">
 			    <td style="padding:0px;width:60%;vertical-align:middle;text-align:left">
-			      <h1>
+			      <!-- <h1>
 			        Akhil Sathuluri
-			      </h1>
+			      </h1> -->
 						<p>I am a PhD student at <a href="https://www.tum.de/"> TU Munich</a>, working on co-evolution of morphology and
 							control of robotic systems at the <a href="https://www.mec.ed.tum.de/en/lpl/research/research-groups/robot-systems/"> Robot Systems Forschungsgruppe</a> at <a href="https://www.mec.ed.tum.de/en/lpl/home/"> LPL</a>.</p>
 			      <p>I previously worked as an Electrical Engineer in the Robotics and Automation team of <a href="https://www.bajajauto.com/"> Bajaj Auto Ltd</a>.,
-							the largest three-wheeler and the third largest two-wheeler manufacturer in the world. I work on electrical sub-system design for special purpose robotic machines
+							the largest three-wheeler and the third largest two-wheeler manufacturer in the world. I worked on the development of electrical sub-systems for special purpose robotic machines
 						and edge based machine vision systems.</p>
 			      <p>I graduated from the Department of Engineering Design,
 			         Indian Institute of Technology Madras. I was a member of the<a href="https://ed.iitm.ac.in/~robotics_lab/"> Robotics Lab</a>, advised by
@@ -40,14 +44,13 @@
 			        <a href="https://www.linkedin.com/in/akhilsathuluri/"> LinkedIn </a>
 			      </p>
 			    </td>
-			    <td style="padding:2.5%;width:40%;max-width:40%">
+			    <!-- <td style="padding:2.5%;width:40%;max-width:40%">
 			      <img style="width:80%;max-width:100%" alt="profile photo" src="images/circle.png">
-			    </td>
+			    </td> -->
 			  </tr>
 			</table>
 
-			<br>
-			<br>
+			<!-- <br> -->
 <hr>
 			<!-- Adding research in the open page -->
     <h2>Research</h2>
@@ -56,11 +59,12 @@
 
 							 {% for post in site.categories.research %}
 							 <tr>
-								 <td style="padding:2%;width:50%;vertical-align:middle;min-width:120px">
-									 <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+									<td style="padding:2%;width:35%;vertical-align:middle;min-width:120px">
+									<img src="{{post.image}}" alt="project image" style="width:auto; height: auto; max-width:100%;" />
 								 </td>
 								 <td style="padding:2.5%;width:75%;vertical-align:middle">
-									 <h3>{{post.title}}</h3>
+									 <!-- <h3>{{post.title}}</h3> -->
+									 <h4>{{post.title}}</h4>
 									 <br>
 									 {{post.authors}}
 									 <br>
@@ -94,14 +98,18 @@
 									 {% if post.slides %}
 									 <a href="{{post.slides}}">slides</a> /
 									 {% endif %}
-									 <p></p>
-									 {{ post.excerpt }}
+									
+									 <!-- {{ post.excerpt }} -->
+									
 								 </td>
+								 <!-- {{ post.excerpt }} -->
 							 </tr>
+							 <!-- {{ post.excerpt }} -->
 							 {% endfor %}
+							 <hr>
 						 </table>
 		</body>
-		<p align="right">
+		<p align="center">
 		<a href="https://jonbarron.info/">Template</a> and the <a href="https://leonidk.com/">modified template</a>
 	</p>
 </html>

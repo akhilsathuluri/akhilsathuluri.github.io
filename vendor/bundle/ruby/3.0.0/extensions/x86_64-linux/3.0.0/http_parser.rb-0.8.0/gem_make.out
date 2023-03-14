@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
 /usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230115-8071-guicai.rb extconf.rb
 creating Makefile
@@ -6,11 +7,27 @@ current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/rub
 make DESTDIR\= clean
 
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230115-22881-nwm36r.rb extconf.rb
+creating Makefile
+
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6
 make DESTDIR\=
 compiling ruby_http_parser.c
 compiling ryah_http_parser.c
 linking shared-object ruby_http_parser.so
 
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
 make DESTDIR\= install
 /usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20230115-8071-emi5vy
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20230115-22881-cjeqad
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6

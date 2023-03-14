@@ -1,17 +1,35 @@
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
 /usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230115-8071-va5cpq.rb extconf.rb
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230115-22881-w9h2sb.rb extconf.rb
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6
 checking for rb_block_call()... yes
 checking for rb_ary_subseq()... yes
 creating Makefile
 
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
 make DESTDIR\= clean
 
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6
 make DESTDIR\=
 compiling cparse.c
 linking shared-object racc/cparse.so
 
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
 make DESTDIR\= install
 /usr/bin/install -c -m 0755 cparse.so ./.gem.20230115-8071-ww67bf/racc
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20230115-22881-jef46r/racc
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6

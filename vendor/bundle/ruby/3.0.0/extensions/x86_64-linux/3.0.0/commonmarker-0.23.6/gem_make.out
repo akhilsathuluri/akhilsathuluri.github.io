@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.6/ext/commonmarker
 /usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230115-8071-u1n84g.rb extconf.rb
 creating Makefile
@@ -6,6 +7,16 @@ current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/rub
 make DESTDIR\= clean
 
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.6/ext/commonmarker
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.6/ext/commonmarker
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230115-22881-qt9ijs.rb extconf.rb
+creating Makefile
+
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.6/ext/commonmarker
+make DESTDIR\= clean
+
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.6/ext/commonmarker
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6
 make DESTDIR\=
 compiling arena.c
 compiling autolink.c
@@ -57,6 +68,12 @@ compiling utf8.c
 compiling xml.c
 linking shared-object commonmarker/commonmarker.so
 
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.6/ext/commonmarker
 make DESTDIR\= install
 /usr/bin/install -c -m 0755 commonmarker.so ./.gem.20230115-8071-bq3bw7/commonmarker
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.6/ext/commonmarker
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20230115-22881-njwuj4/commonmarker
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6

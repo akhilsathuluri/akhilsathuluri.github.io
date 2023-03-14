@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.5/ext/ffi_c
 /usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230115-8071-y7fh2d.rb extconf.rb
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.5/ext/ffi_c
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230115-22881-dqycq1.rb extconf.rb
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -8,10 +13,17 @@ checking for whether -pthread is accepted as LDFLAGS... yes
 creating extconf.h
 creating Makefile
 
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.5/ext/ffi_c
 make DESTDIR\= clean
 
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.5/ext/ffi_c
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= clean
+
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.5/ext/ffi_c
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6
 make DESTDIR\=
 compiling AbstractMemory.c
 compiling ArrayType.c
@@ -38,6 +50,12 @@ compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.so
 
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.5/ext/ffi_c
 make DESTDIR\= install
 /usr/bin/install -c -m 0755 ffi_c.so ./.gem.20230115-8071-qz6ny1
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20230115-22881-k7nnco
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
 /usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230115-8071-mw9fr.rb extconf.rb
 creating Makefile
@@ -6,11 +7,27 @@ current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/rub
 make DESTDIR\= clean
 
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230115-22881-k1hxl2.rb extconf.rb
+creating Makefile
+
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= clean
+
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6
 make DESTDIR\=
 compiling mapper.cpp
 compiling rubymain.cpp
 linking shared-object fastfilereaderext.so
 
+<<<<<<< HEAD
 current directory: /home/laniakea/git/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make DESTDIR\= install
 /usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20230115-8071-s8r8t8
+=======
+current directory: /home/laniakea/git/website-devel/akhilsathuluri.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20230115-22881-w8s8xp
+>>>>>>> 4e3244fc91d2cced260e9c5aceabb20f63e05df6
