@@ -3,7 +3,7 @@ layout: default
 title: "A systems design approach for the co-design of a humanoid robot arm"
 date: 2022-11-12
 category: research
-image: /images/display_images/diva113v-adg.png
+image: /images/display_images/ss-plots.png
 authors: "<strong>Akhil Sathuluri</strong>"
 venue: "Presented at the Workshop on Development and Design Pipelines - From first ideas to well-functioning robots, 2022 IEEE-RAS International Conference on Humanoid Robots (Humanoids 2022)"
 preprint: https://arxiv.org/abs/2212.14256
