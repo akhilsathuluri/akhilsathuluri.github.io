@@ -1,6 +1,6 @@
 #Site settings
 title: Akhil Sathuluri
-description: Senior Undergradratuate, IIT Madras
+description: 
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -10,7 +10,7 @@ footer-links:
   flickr:
   github:
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/akhilsathuluri/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: #jekyllrb

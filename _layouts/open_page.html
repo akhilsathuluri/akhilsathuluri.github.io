@@ -6,16 +6,14 @@
 		<body>
 			<hr>
 			<h1>
-				Akhil Sathuluri
-			  </h1>
-			<!-- <nav
-			style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"> -->
+			Akhil Sathuluri
+			</h1>
 			<nav style="margin: 5pt 5pt -5pt 5pt;line-height: 1em;font-size: 8pt;color:  gray;">
-					<ul>
-							<li><a href="/">Home</a></li>
-							<li><a href="/projects">Projects</a></li>
-							<li><a href="/blog">Blog</a></li>
-					</ul>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/projects">Projects</a></li>
+					<li><a href="/blog">Blog</a></li>
+				</ul>
 			</nav>
 
 			<hr>
@@ -26,94 +24,89 @@
 			<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 			  <tr style="padding:0px">
 			    <td style="padding:0px;width:60%;vertical-align:middle;text-align:left">
-			      <!-- <h1>
-			        Akhil Sathuluri
-			      </h1> -->
-						<p>I am a PhD student at <a href="https://www.tum.de/"> TU Munich</a>, working on co-evolution of morphology and
-							control of robotic systems at the <a href="https://www.mec.ed.tum.de/en/lpl/research/research-groups/robot-systems/"> Robot Systems Forschungsgruppe</a> at <a href="https://www.mec.ed.tum.de/en/lpl/home/"> LPL</a>.</p>
-						<p>
-							As a part of my PhD, I am fortunate to work with the <a href="https://ami.iit.it/">Artificial and Mechanical Intelligence Research Line</a>, at the 
-							<a href="https://www.iit.it/it/">Italian Institute of Technology</a>. 
-							Here, I am currently working on using co-design to improve the robustness of a walking humanoid robot by the combined optimisation of locmotion controller and the joint actuation sub-systems.
-						</p>
-			      <p>I previously worked as an Electrical Engineer in the Robotics and Automation team of <a href="https://www.bajajauto.com/"> Bajaj Auto Ltd</a>.,
-							the largest three-wheeler and the third largest two-wheeler manufacturer in the world. I worked on the development of electrical sub-systems for special purpose robotic machines
-						and edge based machine vision systems.</p>
-			      <p>I graduated from the Department of Engineering Design,
-			         Indian Institute of Technology Madras. I was a member of the<a href="https://ed.iitm.ac.in/~robotics_lab/"> Robotics Lab</a>, advised by
-							 <a href="https://ed.iitm.ac.in/~sandipan/"> Prof. Sandipan Bandyopadhyay</a>, where I worked on the topics of design, analysis and control of parallel robots.
+					<p>
+						I am a PhD student at <a href="https://www.tum.de/"> TU Munich</a>, thinking about ways to represent and co-optimise morphology and controllers of robotic systems and their implications on realising physical robots. I work as a research assistant at the <a href="https://www.mec.ed.tum.de/en/lpl/research/research-groups/robot-systems/"> Robot Systems Forschungsgruppe</a> at <a href="https://www.mec.ed.tum.de/en/lpl/home/"> LPL</a>.
+					</p>
+					<p>
+						I completed a short stint at the <a href="https://msl.stanford.edu/"> Multi-robot Systems Lab </a> at <a href="https://www.stanford.edu/"> Stanford </a> where we explored the ideas of diffusion policies and its combination with Gaussian splatting representation, serving as a simulatable digital twin-based surrogate for real-world data. 
+					</p>
+					<p>
+						I spent some time at the <a href="https://ami.iit.it/">Artificial and Mechanical Intelligence Research Line</a>, at the <a href="https://www.iit.it/it/">Italian Institute of Technology</a>. 
+						Where I worked on methods to improve humanoid walking robustness by looking at the combined locomotion controller and joint actuation space. 						
+					</p>
+				    <p>
+						I previously worked as an electrical engineer in the Robotics and Automation team of <a href="https://www.bajajauto.com/"> Bajaj Auto Ltd</a>, the largest three-wheeler and the third largest two-wheeler manufacturer in the world. We developed edge based vision systems for low-cost robotic special purpose machines.</p>
+			      
+					<p>
+						Earlier, I graduated from <a href="https://www.iitm.ac.in/"> IIT Madras </a> and was a member of the<a href="https://ed.iitm.ac.in/~robotics_lab/"> Robotics Lab</a>, advised by
+						<a href="https://ed.iitm.ac.in/~sandipan/"> Prof. Sandipan Bandyopadhyay</a>, where I worked on the topics of design, analysis and control of parallel robots.
 			       </p>
 			      <p style="text-align:center">
-			        <a target="_blank" href="mailto:akhilsathuluri@gmail.com"> Email</a> &nbsp;/&nbsp;
-			        <a href="https://github.com/akhilsathuluri">GitHub</a> &nbsp;/&nbsp;
+			        <a target="_blank" href="mailto:akhil.sathuluri@tum.de">Email</a> &nbsp;/&nbsp;
+			        <a href="https://github.com/akhilsathuluri">Github</a> &nbsp;/&nbsp;
 			        <a href="https://www.linkedin.com/in/akhilsathuluri/"> LinkedIn </a> &nbsp;/&nbsp;
 					<a href="/pdfs/akhil_sathuluri_CV_2023_11_28.pdf"> CV </a> 
 			      </p>
 			    </td>
-			    <!-- <td style="padding:2.5%;width:40%;max-width:40%">
-			      <img style="width:80%;max-width:100%" alt="profile photo" src="images/circle.png">
-			    </td> -->
 			  </tr>
 			</table>
-
-			<!-- <br> -->
-<hr>
-			<!-- Adding research in the open page -->
-    <h2>Research</h2>
-
-			<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-							 {% for post in site.categories.research %}
-							 <tr>
-									<td style="padding:2%;width:35%;vertical-align:middle;min-width:120px">
-									<img src="{{post.image}}" alt="project image" style="width:auto; height: auto; max-width:100%;" />
-								 </td>
-								 <td style="padding:2.5%;width:75%;vertical-align:middle">
-									 <!-- <h3>{{post.title}}</h3> -->
-									 <h4>{{post.title}}</h4>
-									 <br>
-									 {{post.authors}}
-									 <br>
-									 {% if post.advisor %}
-									 Advisor: {{post.advisor}}
-									 <br>
-									 {% endif %}
-									 <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-									 <br>
-									 {% if post.preprint %}
-									 <a href="{{post.preprint}}" target="_blank">preprint</a> /
-									 {% endif %}
-									 {% if post.paper %}
-									 <a href="{{post.paper}}" target="_blank">paper</a> /
-									 {% endif %}
-									 {% if post.arxiv %}
-									 <a href="{{post.arxiv}}" target="_blank">arxiv</a> /
-									 {% endif %}
-									 {% if post.report %}
-									 <a href="{{post.report}}" target="_blank">report</a> /
-									 {% endif %}
-									 {% if post.video %}
-									 <a href="{{post.video}}">video</a> /
-									 {% endif %}
-									 {% if post.code %}
-									 <a href="{{post.code}}">code</a> /
-									 {% endif %}
-									 {% if post.poster %}
-									 <a href="{{post.poster}}">poster</a> /
-									 {% endif %}
-									 {% if post.slides %}
-									 <a href="{{post.slides}}">slides</a> /
-									 {% endif %}
-									
-									 <!-- {{ post.excerpt }} -->
-									
-								 </td>
-								 <!-- {{ post.excerpt }} -->
-							 </tr>
-							 <!-- {{ post.excerpt }} -->
-							 {% endfor %}
-							 <hr>
-						 </table>
+			<hr>
+    		<h2>Research</h2>
+				<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+				{% for post in site.categories.research %}
+				<tr>
+					<td style="padding:2%;width:35%;vertical-align:middle;min-width:120px">
+					<img src="{{post.image}}" alt="project image" style="width:auto; height: auto; max-width:100%;" />
+					</td>
+					<td style="padding:2.5%;width:75%;vertical-align:middle">
+						<h4>{{post.title}}</h4>
+						<br>
+						{{post.authors}}
+						<br>
+						{% if post.advisor %}
+						Advisor: {{post.advisor}}
+						<br>											
+						{% endif %}
+						{% if post.collaboration %}
+						Collaborators: 
+						{% if post.collaboration_link %}
+						<a href="{{post.collaboration_link}}" target="_blank">{{post.collaboration}}</a>
+						{% else %}
+						{{post.collaboration}}
+						{% endif %}
+						<br>
+						{% endif %}						
+						<em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+						<br>
+						{% if post.preprint %}
+						<a href="{{post.preprint}}" target="_blank">preprint</a> /
+						{% endif %}
+						{% if post.paper %}
+						<a href="{{post.paper}}" target="_blank">paper</a> /
+						{% endif %}
+						{% if post.arxiv %}
+						<a href="{{post.arxiv}}" target="_blank">arxiv</a> /
+						{% endif %}
+						{% if post.report %}
+						<a href="{{post.report}}" target="_blank">report</a> /
+						{% endif %}
+						{% if post.video %}
+						<a href="{{post.video}}">video</a> /
+						{% endif %}
+						{% if post.code %}
+						<a href="{{post.code}}">code</a> /
+						{% endif %}
+						{% if post.poster %}
+						<a href="{{post.poster}}">poster</a> /
+						{% endif %}
+						{% if post.slides %}
+						<a href="{{post.slides}}">slides</a> /
+						{% endif %}
+					</td>
+				</tr>
+				{% endfor %}
+			<hr>
+			</table>
 		</body>
 		<p align="center">
 		<a href="https://jonbarron.info/">Template</a> and the <a href="https://leonidk.com/">modified template</a>

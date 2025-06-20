@@ -2,111 +2,103 @@
 layout: default
 title: Projects
 ---
-
-<!-- <h2>Projects</h2> -->
 <ul class="machines">
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-					<tr>
-					 <h2>Machines</h2>
-				 </tr>
-				 <br>
-				 <br>
-				 {% for post in site.categories.machines%}
-				 <tr>
-					 <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-						 <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-					 </td>
-					 <td style="padding:2.5%;width:75%;vertical-align:middle">
-						 {% if post.notempty %}
-						 <span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-						 {% endif %}
-						 {% if post.empty %}
-						 <span><a href="{{ post.alternate }}" title="{{ post.title }}">{{ post.title }}</a>
-						 {% endif %}
-							 <br>
-							 {{ post.summary }}
-							 <br>
-					 </td>
-				 </tr>
-				 {% endfor %}
-			 </table>
-</ul>
-
-		<!-- <h2>Projects</h2> -->
-	<ul class="project">
-		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-							<tr>
-							 <h2>Projects</h2>
-						 </tr>
-						 <br>
-						 <br>
-						 {% for post in site.categories.projects%}
-						 <tr>
-							 <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-								 <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-							 </td>
-							 <td style="padding:2.5%;width:75%;vertical-align:middle">
-								 {% if post.notempty %}
-								 <span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-								 {% endif %}
-								 {% if post.empty %}
-								 <span><a href="{{ post.alternate }}" title="{{ post.title }}">{{ post.title }}</a>
-								 {% endif %}
-									 <br>
-									 {{ post.summary }}
-									 <br>
-							 </td>
-						 </tr>
-						 {% endfor %}
-					 </table>
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+		<tr>
+			<h2>Machines</h2>
+		</tr>
+		<br>
+		<br>
+		{% for post in site.categories.machines%}
+		<tr>
+			<td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+				<img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+			</td>
+			<td style="padding:2.5%;width:75%;vertical-align:middle">
+				{% if post.notempty %}
+				<span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+				{% endif %}
+				{% if post.empty %}
+				<span><a href="{{ post.alternate }}" title="{{ post.title }}">{{ post.title }}</a>
+				{% endif %}
+				<br>
+				{{ post.summary }}
+				<br>
+			</td>
+		</tr>
+		{% endfor %}
+	</table>
 	</ul>
 
-<br>
-<hr>
-	<!-- <h2>Tutorials</h2> -->
+	<ul class="project">
+		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+			<tr>
+				<h2>Projects</h2>
+			</tr>
+			<br>
+			<br>
+			{% for post in site.categories.projects%}
+			<tr>
+				<td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+					<img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+				</td>
+				<td style="padding:2.5%;width:75%;vertical-align:middle">
+					{% if post.notempty %}
+					<span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+					{% endif %}
+					{% if post.empty %}
+					<span><a href="{{ post.alternate }}" title="{{ post.title }}">{{ post.title }}</a>
+					{% endif %}
+					<br>
+					{{ post.summary }}
+					<br>
+				</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</ul>
+	<br>
+	<hr>
 	<ul class="tutorial">
 		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-						 <tr>
-							 <h2>Tutorials</h2>
-						 </tr>
-						 <br>
-						 <br>
-						 {% for post in site.categories.tutorials%}
-						 <tr>
-							 <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-								 <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-							 </td>
-							 <td style="padding:2.5%;width:75%;vertical-align:middle">
-								 {% if post.notempty %}
-								 <span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-								 {% endif %}
-								 {% if post.empty %}
-								 <span><a href="{{ post.alternate }}" title="{{ post.title }}">{{ post.title }}</a>
-								 {% endif %}
-									 <br>
-									 {{ post.summary }}
-									 <br>
-							 </td>
-						 </tr>
-						 {% endfor %}
-					 </table>
+			<tr>
+				<h2>Tutorials</h2>
+			</tr>
+			<br>
+			<br>
+			{% for post in site.categories.tutorials%}
+			<tr>
+				<td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+					<img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+				</td>
+				<td style="padding:2.5%;width:75%;vertical-align:middle">
+					{% if post.notempty %}
+					<span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+					{% endif %}
+					{% if post.empty %}
+					<span><a href="{{ post.alternate }}" title="{{ post.title }}">{{ post.title }}</a>
+					{% endif %}
+					<br>
+					{{ post.summary }}
+					<br>
+				</td>
+			</tr>
+			{% endfor %}
+		</table>
 
-<br>
-<hr>
-	<h2>Archive</h2>
 	<br>
-	<br>
-		<ul class="archive">
-
-			<li><span><a href="pdf/survey_research_robots.pdf" title="{{ post.title }}" target="_blank">A report on robot research testbenches</a>
-	    </li>
-
-			<li><span><a href="pdf/biomimetic.pdf" title="{{ post.title }}" target="_blank">A biomimetic design of a mantis shrimp arm</a>
-			</li>
-
-			<li><span><a href="pdf/footpegs_design.pdf" title="{{ post.title }}" target="_blank">Human factors based redesign of pillion rider foot-pegs</a>
-			</li>
-
-			<li><span><a href="pdf/topopt_report.pdf" title="{{ post.title }}" target="_blank">Topology Optimization: An approach to light weight-design</a>
-			</li>
-		</ul>
+	<hr>
+	<!-- Only for internal use -->
+		<!-- <ul class="archive">
+			<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+			<tr>
+				<h2>Archive</h2>
+			</tr>
+			<br>
+			<br>			
+			<li><span><a href="pdf/survey_research_robots.pdf" title="{{ post.title }}" target="_blank">A report on robot research testbenches</a></li>
+			<li><span><a href="pdf/biomimetic.pdf" title="{{ post.title }}" target="_blank">A biomimetic design of a mantis shrimp arm</a></li>
+			<li><span><a href="pdf/footpegs_design.pdf" title="{{ post.title }}" target="_blank">Human factors based redesign of pillion rider foot-pegs</a></li>
+			<li><span><a href="pdf/topopt_report.pdf" title="{{ post.title }}" target="_blank">Topology Optimization: An approach to light weight-design</a></li>
+			</table>
+		</ul> -->
