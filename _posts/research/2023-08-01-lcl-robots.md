@@ -3,7 +3,7 @@ layout: default
 title: "Computational Systems Design of Low-Cost Lightweight Robots"
 date: 2023-08-01
 category: research
-image: /images/display_images/v126-weight.png
+image: /images/display_images/lcl_robots_2.gif
 authors: "<strong>Akhil Sathuluri</strong>, Anand Vazhapilli Sureshbabu, Jintin Frank, Maximilian Amm, Markus Zimmermann"
 venue: "Robotics 2023"
 paper: https://www.mdpi.com/2218-6581/12/4/91
